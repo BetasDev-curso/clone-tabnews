@@ -4,13 +4,18 @@
   "description": "Pelo menos o tabnews sobra pro beta q paga",
   "main": "index.js",
   "scripts": {
-    "sex": "next dev"
-  }, 
+    "sex": "next dev",
+    "lint:pussy": "prettier --check .",
+    "lint:dick": "prettier --write ."
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
   }
 }
